@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>호감도 발표 스토리보드</title>
+  <style>
+      * {
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+          font-family: 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+      }
+
+      body {
+          background-color: #f5f5f5;
+          padding: 40px;
+      }
+
+      .container {
+          max-width: 1400px;
+          margin: 0 auto;
+      }
+
+      header {
+          text-align: center;
+          margin-bottom: 40px;
+      }
+
+      h1 {
+          font-size: 28px;
+          margin-bottom: 10px;
+          color: #333;
+      }
+
+      .intro-box {
+          background-color: #fff;
+          border-radius: 8px;
+          padding: 20px;
+          margin-bottom: 40px;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .section-header {
+          background-color: #4b5563;
+          color: white;
+          padding: 15px 20px;
+          border-radius: 8px;
+          margin-bottom: 20px;
+          margin-top: 50px;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .section-title {
+          font-size: 18px;
+          font-weight: bold;
+      }
+
+      .section-description {
+          font-size: 14px;
+          margin-top: 8px;
+          background-color: rgba(255, 255, 255, 0.2);
+          padding: 8px;
+          border-radius: 4px;
+      }
+
+      .slides-container {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+          gap: 20px;
+          margin-bottom: 30px;
+      }
+
+      .slide-card {
+          background-color: #fff;
+          border-radius: 8px;
+          padding: 15px;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+          border: 1px solid #e5e5e5;
+          display: flex;
+          flex-direction: column;
+      }
+
+      .slide-id {
+          font-size: 12px;
+          color: #666;
+          margin-bottom: 5px;
+      }
+
+      .slide-title {
+          font-weight: bold;
+          margin-bottom: 8px;
+          font-size: 16px;
+      }
+
+      .slide-tags {
+          display: flex;
+          gap: 8px;
+          margin-bottom: 10px;
+      }
+
+      .tag {
+          display: inline-flex;
+          align-items: center;
+          font-size: 11px;
+          padding: 2px 6px;
+          border-radius: 4px;
+          border: 1px solid #ccc;
+          color: #666;
+      }
+
+      .slide-summary {
+          font-size: 13px;
+          color: #333;
+          margin-bottom: 12px;
+          flex-grow: 1;
+      }
+
+      .slide-purpose {
+          font-size: 11px;
+          background-color: #fff;
+          padding: 8px;
+          border-radius: 4px;
+          border-left: 4px solid #9ca3af;
+          color: #4b5563;
+          font-weight: 500;
+      }
+
+      .narration-preview {
+          background-color: #fff;
+          border-radius: 8px;
+          padding: 20px;
+          margin-top: 50px;
+          margin-bottom: 30px;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .summary-container {
+          background-color: #fff;
+          border-radius: 8px;
+          padding: 20px;
+          margin-top: 50px;
+          margin-bottom: 30px;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+  </style>
+</head>
+<body>
+<div class="container" id="main-container">
+  <header>
+    <h1>AI와 함께 모으는 관계 호감도 자산</h1>
+    <p>발표 스토리보드</p>
+  </header>
+
+  <div class="intro-box">
+    <h2 style="margin-bottom: 10px; font-size: 18px;">발표 핵심 목표</h2>
+    <ul style="padding-left: 20px; font-size: 14px; line-height: 1.6;">
+      <li><strong>명확한 가치:</strong> AI를 활용해 소통 패턴을 개선하여 <span style="background-color: #f3f4f6; padding: 2px 4px;">호감도를 높이는 사람</span>이
+        되는 방법 제시
+      </li>
+      <li><strong>공감대 형성:</strong> 일상에서 경험하는 기억 상실과 소통 문제에 공감대를 형성하며 시작</li>
+      <li><strong>내향인의 여정:</strong> 발표자의 내향적 성격과 소통 고민 공유로 청중의 공감 얻기</li>
+      <li><strong>생생한 시연:</strong> 연인 관계 호감도 향상 사례를 나레이션과 비포-애프터 구조로 전달</li>
+      <li><strong>확장 가능성:</strong> 친구 관계의 잊혀진 약속, 직장 관계의 신뢰 구축 등 다양한 적용 사례 소개</li>
+    </ul>
+  </div>
+
+  <!-- 스토리보드 요약 -->
+  <div class="summary-container">
+    <h2 style="font-size: 18px; font-weight: bold; margin-bottom: 15px;">발표 스토리보드 핵심 포인트</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 15px;">
+      <div style="background-color: #f9f9f9; border-radius: 8px; padding: 12px;">
+        <h3 style="font-size: 15px; margin-bottom: 8px; color: #333;">1. 공감대 형성 시작</h3>
+        <p style="font-size: 13px; color: #555;">일상에서 경험하는 기억 상실과 소통 문제에 공감대를 형성하며 부드럽게 시작</p>
+      </div>
+      <div style="background-color: #f9f9f9; border-radius: 8px; padding: 12px;">
+        <h3 style="font-size: 15px; margin-bottom: 8px; color: #333;">2. 내향인의 진정성 있는 경험</h3>
+        <p style="font-size: 13px; color: #555;">발표자의 내향적 성격과 소통 고민 공유로 청중의 공감 얻기</p>
+      </div>
+      <div style="background-color: #f9f9f9; border-radius: 8px; padding: 12px;">
+        <h3 style="font-size: 15px; margin-bottom: 8px; color: #333;">3. 게임처럼 직관적인 컨셉</h3>
+        <p style="font-size: 13px; color: #555;">게임 호감도 시스템을 비유로 사용해 관계 데이터화 개념 쉽게 전달</p>
+      </div>
+      <div style="background-color: #f9f9f9; border-radius: 8px; padding: 12px;">
+        <h3 style="font-size: 15px; margin-bottom: 8px; color: #333;">4. 청중 인터뷰로 필요성 입증</h3>
+        <p style="font-size: 13px; color: #555;">닉네임 등록자 중 한 명을 선택해 실시간 인터뷰로 기억의 한계 증명</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 섹션별 슬라이드가 여기에 들어갑니다 -->
+  <div id="sections-container"></div>
+
+
+
+</div>
+
+<script>
+  // 섹션 데이터
+  const sections = [
+    { id: 0, title: '인트로: 청중과의 첫 연결', description: '발표 주제 소개와 함께 자연스럽게 청중 참여를 유도하고 흥미 유발' },
+    { id: 1, title: '소통과 호감도의 중요성', description: '소통 능력과 호감도가 인생의 질과 성공에 미치는 결정적 영향력 강조' },
+    { id: 2, title: '내향인의 여정과 공감 유도', description: '내향인의 경험을 나누면서도 모든 사람이 공감할 수 있는 보편적 관계 고민으로 확장' },
+    { id: 3, title: '관계 자산 게임화 컨셉', description: '게임의 호감도 시스템에서 영감을 받은 현실 관계의 데이터화 개념 소개' },
+    { id: 4, title: '호감도 수집 시스템', description: '카카오톡, 만남 녹음, 마음 일기를 통한 호감도 데이터 수집 및 AI 분석 방법' },
+    { id: 5, title: '시연 준비: 청중 인터뷰 (6과정을 진행하면서 대기 중 5를 진행한다)', description: '기억의 한계를 체험하는 질문들과 등록된 닉네임 중 한 명과의 인터뷰로 문제 공감대 형성' },
+    { id: 6, title: '핵심 시연: 연인 관계 호감도 향상', description: '문제-분석-솔루션-결과의 흐름으로 연인 관계 호감도 향상 사례 생생하게 시연' },
+    { id: 7, title: '확장 사례: 친구와 직장 관계', description: '친구 관계의 잊혀진 약속, 직장 관계의 신뢰 구축 등 다양한 적용 사례 소개' },
+    { id: 8, title: '실용적 시스템 구축', description: '기술적 지식 없이도 오늘부터 시작할 수 있는 단계별 실천 방법' },
+    { id: 9, title: '마무리: 호감도의 삶의 가치', description: '호감도 향상이 가져올 삶의 변화를 강조하며 구체적 행동 유도' },
+  ];
+
+  // 슬라이드 데이터
+  const slides = [
+    // 섹션 0: 인트로
+    {
+      id: '0-1',
+      title: '맨 뒤에 계신 분들, 슬라이드 잘 보이시나요?',
+      section: 0,
+      summary: '청중과의 첫 교감 형성 및 발표 시작 분위기 환기',
+      purpose: '초반 분위기 환기 및 청중 참여 유도',
+    },
+    {
+      id: '0-2',
+      title: 'AI와 함께 모으는 관계 호감도 자산',
+      section: 0,
+      summary: '발표 주제 소개와 QR코드 스캔으로 닉네임 등록 안내 (추후 랜덤 선물 증정)',
+      purpose: '자연스러운 참여 유도와 발표 주제 소개',
+      hasQR: true,
+    },
+
+    // 섹션 1: 소통과 호감도의 중요성
+    {
+      id: '1-1',
+      title: '이런 경험, 있으신가요?',
+      section: 1,
+      summary: '일상에서 경험하는 소통과 기억의 문제 상황에 대한 공감대 형성',
+      purpose: '청중의 경험에 호소하는 공감대 형성으로 시작',
+    },
+    {
+      id: '1-2',
+      title: '단순한 불편함을 넘어선 관계의 손실',
+      section: 1,
+      summary: '소통 문제가 가져오는 구체적인 관계 손실과 신뢰 하락',
+      purpose: '문제의 실질적 영향력 강조로 중요성 부각',
+    },
+    {
+      id: '1-3',
+      title: '호감도: 눈에 보이지 않는 인생의 자산',
+      section: 1,
+      summary: '관계에서의 호감도가 눈에 보이지 않지만 중요한 자산임을 설명',
+      purpose: '눈에 보이지 않는 관계 자산의 가치 인식 전환',
+    },
+    {
+      id: '1-4',
+      title: '소통이 우리 삶을 바꿉니다',
+      section: 1,
+      summary: '현대 사회 문제(고독사, 우울증)와 소통 능력이 성공으로 가는 지름길임을 강조',
+      purpose: '소통의 실질적 가치 강조로 청중의 관심 유도',
+    },
+
+    // 섹션 2: 내향인의 여정
+    {
+      id: '2-1',
+      title: '저도 소통이 어려웠습니다',
+      section: 2,
+      summary: '내향적 성격으로 겪었던 소통의 어려움과 시스템 개발 계기',
+      purpose: '발표자의 진정성 있는 개인 경험 공유로 공감대 형성',
+    },
+    {
+      id: '2-2',
+      title: '소통은 모두에게 어려울 수 있습니다',
+      section: 2,
+      summary: '외향적인 사람들도 겪는 소통의 어려움과 보편적인 고민',
+      purpose: '모든 청중이 공감할 수 있는 보편적 문제로 확장',
+    },
+    {
+      id: '2-3',
+      title: '우리는 기억과 인식을 왜곡합니다',
+      section: 2,
+      summary: '대화와 상황을 주관적으로 해석하는 인지적 오류와 그 영향',
+      purpose: '객관적 데이터의 필요성을 심리학적으로 뒷받침',
+    },
+
+    // 섹션 3: 관계 자산 게임화
+    {
+      id: '3-1',
+      title: '게임처럼 관계도 수치화할 수 있다면?',
+      section: 3,
+      summary: '게임의 호감도 시스템에서 영감받은 현실 관계의 데이터화 개념',
+      purpose: '쉽고 친숙한 비유를 통한 핵심 아이디어 소개',
+    },
+    {
+      id: '3-2',
+      title: '호감도 수치화의 3가지 마법',
+      section: 3,
+      summary: '관계 데이터화가 가져오는 객관적 인식, 패턴 발견, 개선 방향 제시',
+      purpose: '시스템 사용의 구체적 효과와 이점 명확화',
+    },
+    {
+      id: '3-3',
+      title: 'AI와 함께 호감도 자산 쌓기',
+      section: 3,
+      summary: 'AI를 활용해 일상 대화를 분석하고 호감도 자산으로 축적하는 방법',
+      purpose: 'AI 기술의 실제 활용법 소개로 흥미 유발',
+    },
+
+    // 섹션 4: 호감도 수집 시스템
+    {
+      id: '4-1',
+      title: '호감도 데이터 수집의 3가지 채널',
+      section: 4,
+      summary: '카카오톡 대화, 만남 녹음, 마음 일기를 통한 다각적 데이터 수집',
+      purpose: '일상에 자연스럽게 통합되는 수집 방법 제시',
+    },
+    {
+      id: '4-2',
+      title: 'AI가 찾아내는 당신의 호감도 패턴',
+      section: 4,
+      summary: 'AI가 분석하는 소통 패턴과 호감도에 영향을 미치는 핵심 요소',
+      purpose: 'AI 분석의 인사이트 가치 강조',
+    },
+    {
+      id: '4-3',
+      title: '한눈에 보는 나의 호감도 지도',
+      section: 4,
+      summary: '관계와 호감도가 시각화된 인터랙티브 지도 소개',
+      purpose: '직관적 시각화를 통한 효과 입증',
+    },
+
+    // 섹션 5: 시연 준비
+    {
+      id: '5-1',
+      title: '재미있는 닉네임이 있네요. OOO님 계신가요?',
+      section: 5,
+      summary: '등록된 닉네임 중 한 명을 선택해 인터뷰 시작',
+      purpose: '청중의 실제 참여를 통한 몰입도 증가',
+    },
+    {
+      id: '5-2',
+      title: '오늘 만나신 분이 있으신가요?',
+      section: 5,
+      summary: '쉬운 질문으로 시작해 인터뷰 대상자의 편안함 확보',
+      purpose: '단계적 질문으로 자연스러운 인터뷰 흐름 구성',
+    },
+    {
+      id: '5-3',
+      title: '1년 전 오늘은 누구를 만났나요?',
+      section: 5,
+      summary: '기억의 한계를 체험하게 하는 도전적인 질문',
+      purpose: '기억에 의존한 관계 관리의 한계 체험',
+    },
+    {
+      id: '5-4',
+      title: '작년에 가장 많이 대화한 사람은 누구인가요?',
+      section: 5,
+      summary: '가장 많이 대화한 사람을 기억하지 못하는 상황 연출',
+      purpose: '시스템 필요성에 대한 자연스러운 공감대 형성',
+    },
+
+    // 섹션 6: 핵심 시연
+    {
+      id: '6-1',
+      title: '연인 관계 사례를 살펴볼까요?',
+      section: 6,
+      summary: 'QR코드 투표를 통해 연인 관계 사례로 자연스럽게 유도',
+      purpose: '청중 참여를 통한 주제 선택으로 몰입도 증가',
+      hasQR: true,
+    },
+    {
+      id: '6-2',
+      title: 'BEFORE: 연인과의 소통 문제',
+      section: 6,
+      summary: '연인 관계에서의 소통 문제와 낮은 호감도 사례를 나레이션으로 전달',
+      purpose: '나레이션과 시각화를 통한 생생한 문제 상황 전달',
+      hasNarration: true,
+    },
+    {
+      id: '6-3',
+      title: 'AI 분석: 호감도 저하 요인',
+      section: 6,
+      summary: 'AI가 분석한 대화 패턴의 문제점과 호감도 저하 요인',
+      purpose: '데이터 기반 객관적 문제 진단',
+    },
+    {
+      id: '6-4',
+      title: '솔루션: 호감도 향상을 위한 실천법',
+      section: 6,
+      summary: '호감도 향상을 위한 맞춤형 소통 개선 방안',
+      purpose: '실천 가능한 구체적 솔루션 제시',
+    },
+    {
+      id: '6-5',
+      title: 'AFTER: 한 달 후의 변화',
+      section: 6,
+      summary: '솔루션 적용 후 향상된 대화 패턴과 호감도 결과',
+      purpose: '극적인 비포-애프터 대비로 효과 입증',
+      hasNarration: true,
+    },
+
+    // 섹션 7: 확장 사례
+    {
+      id: '7-1',
+      title: '오래된 친구와의 관계: 잃어버린 공감대',
+      section: 7,
+      summary: '시간이 지나며 어려워진 친구 관계와 잊혀진 약속 발견 사례',
+      purpose: '누구나 공감할 수 있는 친구 관계 문제 제시',
+    },
+    {
+      id: '7-2',
+      title: '직장 관계: 상대방을 정의하는 함정',
+      section: 7,
+      summary: '직장에서 타인을 임의로 정의하는 오류와 데이터 기반 이해의 중요성',
+      purpose: '직장에서의 신뢰 구축을 통한 비즈니스 가치 강조',
+    },
+    {
+      id: '7-3',
+      title: '신뢰 자산의 비즈니스 가치',
+      section: 7,
+      summary: '직장에서 신뢰 자산이 비즈니스 성과로 이어지는 과정',
+      purpose: '호감도에서 신뢰도로 개념 확장',
+    },
+
+    // 섹션 8: 실용적 시스템 구축
+    {
+      id: '8-1',
+      title: '누구나 시작할 수 있는 호감도 시스템',
+      section: 8,
+      summary: '기술 지식 없이도 시작할 수 있는 단계별 시스템 구축 방법',
+      purpose: '진입 장벽 낮추기를 통한 실천 가능성 증가',
+    },
+    { id: '8-2', title: '전체 시스템 워크플로우', section: 8, summary: '시스템의 전체 워크플로우와 핵심 기술 요소', purpose: '전체 그림을 통한 이해도 증진' },
+
+    // 섹션 9: 마무리
+    {
+      id: '9-1',
+      title: '호감도가, 인생이 달라집니다',
+      section: 9,
+      summary: '호감도 향상이 가져오는 삶의 질적 변화와 성공과의 연결',
+      purpose: '호감도의 궁극적 가치 강조',
+    },
+    {
+      id: '9-2',
+      title: '당신의 소통, 당신의 관계, 당신의 호감 게이지',
+      section: 9,
+      summary: '다양한 소통 고민을 보여주는 말풍선과 함께 희망적 메시지 전달',
+      purpose: '감정적 여운을 남기는 강렬한 마무리',
+    },
+    {
+      id: '9-3',
+      title: '함께 시작해보세요: 호감도 자산 모으기',
+      section: 9,
+      summary: '서비스 대기열 등록 QR코드와 함께 실천 방법 안내',
+      purpose: '명확한 다음 단계 제시로 행동 유도',
+      hasQR: true,
+    },
+  ];
+
+  // 나레이션 아이콘 SVG
+  const narrationSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" viewBox="0 0 16 16">
+    <path d="M11.536 14.01A8.473 8.473 0 0 0 14.026 8a8.473 8.473 0 0 0-2.49-6.01l-.708.707A7.476 7.476 0 0 1 13.025 8c0 2.071-.84 3.946-2.197 5.303l.708.707z"/>
+    <path d="M10.121 12.596A6.48 6.48 0 0 0 12.025 8a6.48 6.48 0 0 0-1.904-4.596l-.707.707A5.483 5.483 0 0 1 11.025 8a5.483 5.483 0 0 1-1.61 3.89l.706.706z"/>
+    <path d="M8.707 11.182A4.486 4.486 0 0 0 10.025 8a4.486 4.486 0 0 0-1.318-3.182L8 5.525A3.489 3.489 0 0 1 9.025 8 3.49 3.49 0 0 1 8 10.475l.707.707zM6.717 3.55A.5.5 0 0 1 7 4v8a.5.5 0 0 1-.812.39L3.825 10.5H1.5A.5.5 0 0 1 1 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06z"/>
+</svg>`;
+
+  // QR코드 아이콘 SVG
+  const qrSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" viewBox="0 0 16 16">
+    <path d="M2 2h2v2H2V2Z"/>
+    <path d="M6 0v6H0V0h6ZM5 1H1v4h4V1ZM4 12H2v2h2v-2Z"/>
+    <path d="M6 10v6H0v-6h6Zm-5 1v4h4v-4H1Zm11-9h2v2h-2V2Z"/>
+    <path d="M10 0v6h6V0h-6Zm5 1v4h-4V1h4ZM8 1V0h1v2H8v2H7V1h1Zm0 5V4h1v2H8ZM6 8V7h1V6h1v2h1V7h5v1h-4v1H7V8H6Zm0 0v1H2V8H1v1H0V7h3v1h3Zm10 1h-1V7h1v2Zm-1 0h-1v2h2v-1h-1V9Zm-4 0h2v1h-1v1h-1V9Zm2 3v-1h-1v1h-1v1H9v1h3v-2h1Zm0 0h3v1h-2v1h-1v-2Zm-4-1v1h1v-2H7v1h2Z"/>
+    <path d="M7 12h1v3h4v1H7v-4Zm9 2v2h-3v-1h2v-1h1Z"/>
+</svg>`;
+
+  // HTML 생성 함수
+  function createSlideCard(slide) {
+    return `
+    <div class="slide-card">
+        <div class="slide-id">${slide.id}</div>
+        <h3 class="slide-title">${slide.title}</h3>
+        <div class="slide-tags">
+            ${slide.hasNarration ? `<span class="tag">${narrationSvg} 나레이션</span>` : ''}
+            ${slide.hasQR ? `<span class="tag">${qrSvg} QR코드</span>` : ''}
+        </div>
+        <div class="slide-summary">${slide.summary}</div>
+        <div class="slide-purpose">${slide.purpose}</div>
+    </div>
+    `;
+  }
+
+  // 섹션별 슬라이드 생성
+  document.addEventListener('DOMContentLoaded', function() {
+    const sectionsContainer = document.getElementById('sections-container');
+
+    // 섹션별로 슬라이드 생성
+    sections.forEach(section => {
+      // 섹션 헤더 생성
+      const sectionElement = document.createElement('div');
+      sectionElement.innerHTML = `
+            <div class="section-header">
+                <div class="section-title">${section.id}. ${section.title}</div>
+                <div class="section-description">${section.description}</div>
+            </div>
+            <div class="slides-container" id="section-${section.id}"></div>
+        `;
+      sectionsContainer.appendChild(sectionElement);
+
+      // 해당 섹션의 슬라이드들 추가
+      const sectionSlides = slides.filter(slide => slide.section === section.id);
+      const slidesContainer = document.getElementById(`section-${section.id}`);
+
+      sectionSlides.forEach(slide => {
+        const slideElement = document.createElement('div');
+        slideElement.innerHTML = createSlideCard(slide);
+        slidesContainer.appendChild(slideElement.firstElementChild);
+      });
+    });
+  });
+</script>
+</body>
+</html>
